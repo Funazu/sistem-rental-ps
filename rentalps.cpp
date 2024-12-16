@@ -1,3 +1,4 @@
+// NOVITA
 #include <iostream>
 #include <cstdlib> // Untuk system("clear") atau system("cls")
 #include <string>
@@ -13,6 +14,7 @@ void clearScreen() {
     #endif
 }
 
+// FAJRI
 // Data Paket
 const int JUMLAH_PAKET = 4;
 string daftarPaket[JUMLAH_PAKET][2] = {
@@ -42,6 +44,7 @@ string daftarMakanan[JUMLAH_MAKANAN][2] = {
     {"Soda Gembira", "15000"}
 };
 
+// ARIF
 // Fungsi untuk menghitung harga PS per 6 jam
 int hitungHargaPS6Jam(int hargaPerHari) {
     return hargaPerHari / 4; // Harga 6 jam adalah 1/4 dari harga per hari
@@ -59,6 +62,7 @@ void tampilkanHasilTransaksi(string deskripsi, int totalHarga) {
     cin.get();
 }
 
+// AMIN
 // Fungsi untuk menu paket
 void menuPaket() {
     while (true) {
@@ -117,6 +121,7 @@ void menuPaket() {
     }
 }
 
+// ROMI
 // Fungsi untuk menu rental PS
 void menuRental() {
     while (true) {
@@ -150,6 +155,7 @@ void menuRental() {
     }
 }
 
+// MAIN
 // Fungsi untuk menu custom
 void menuCustom() {
     while (true) {
